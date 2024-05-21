@@ -1,0 +1,10 @@
+.navItems{
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+    .langItem{
+        display: flex;
+        flex-direction: row;
+        gap: .4rem;
+    }

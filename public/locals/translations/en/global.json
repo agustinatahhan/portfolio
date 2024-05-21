@@ -1,0 +1,15 @@
+{
+    "nav":{
+        "home": "Home",
+        "about": "About me",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact me"
+    },
+    "header": {
+        "title1": "Hi there!",
+        "title2": "I'm Agustina Tahhan",
+        "title3": "Full Stack Developer",
+        "title4": "who likes turning great ideas into code"
+    }
+}

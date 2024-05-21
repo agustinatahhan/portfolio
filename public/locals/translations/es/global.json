@@ -1,0 +1,15 @@
+{ 
+    "nav": {
+    "nav_home": "Inicio",
+    "nav_about": "Sobre mí",
+    "nav_skills": "Habilidades",
+    "nav_projects": "Proyectos",
+    "nav_contact": "Contacto"
+    },
+    "header": {
+        "title1": "Hola!",
+        "title2": "Soy Agustina Tahhan",
+        "title3": "Desarrolladora Full Stack",
+        "title4": "me gusta transformar grandes ideas en código."
+    }
+}
