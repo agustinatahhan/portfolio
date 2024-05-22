@@ -11,5 +11,20 @@
         "title2": "Soy Agustina Tahhan",
         "title3": "Desarrolladora Full Stack",
         "title4": "me gusta transformar grandes ideas en código."
+    },
+    "about": {
+        "title": "Sobre mí"
+    },
+    "experience": {
+        "title": "Experiencia"
+    },
+    "projects": {
+        "title": "Proyectos"
+    },
+    "skills": {
+        "title": "Habilidades"
+    },
+    "contact": {
+        "title": "Contáctame"
     }
 }

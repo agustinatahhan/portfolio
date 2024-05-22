@@ -111,12 +111,11 @@
   color: #777;
   border: 1px solid #777;
 }
-
-.titlesMobile {
+.mobi {
   display: none;
 }
 
-.icons{
+.icons {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -125,18 +124,39 @@
 }
 
 @media (max-width: 768px) {
+  .titleExperience {
+    font-family: var(--title);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 40px;
+    width: 90%;
+    text-align: center;
+  }
+
   .columnContainer {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
+  }
+  .mobi {
+    display: block;
+  }
+  .titlesMobile {
+    /* display: block; */
+    font-size: 15px;
+    text-align: start;
+    width: 100%;
+    font-family: var(--title);
   }
 
-  .titlesMobile {
-    display: block;
+  .textMobile {
+    /* display: block; */
+    width: 100%;
+    text-align: start;
+    font-size: 8px;
   }
 
   .cardContent {
     display: none;
   }
-
 }

@@ -11,5 +11,20 @@
         "title2": "I'm Agustina Tahhan",
         "title3": "Full Stack Developer",
         "title4": "who likes turning great ideas into code"
+    },
+    "about": {
+        "title": "About me"
+    },
+    "experience": {
+        "title": "Experience"
+    },
+    "projects": {
+        "title": "Projects"
+    },
+    "skills": {
+        "title": "Skills"
+    },
+    "contact": {
+        "title": "Get in touch"
     }
 }

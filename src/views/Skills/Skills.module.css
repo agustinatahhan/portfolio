@@ -1,9 +1,17 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    /* background-image: url(../../assets/paper.jpg); */
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  /* background-image: url(../../assets/paper.jpg); */
+}
+.titleExperience {
+  font-family: var(--title);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: 50px;
+  width: 90%;
+  text-align: start;
+}
