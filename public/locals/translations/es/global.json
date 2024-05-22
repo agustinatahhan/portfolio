@@ -1,10 +1,10 @@
 { 
     "nav": {
-    "nav_home": "Inicio",
-    "nav_about": "Sobre mí",
-    "nav_skills": "Habilidades",
-    "nav_projects": "Proyectos",
-    "nav_contact": "Contacto"
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contáctame"
     },
     "header": {
         "title1": "Hola!",
