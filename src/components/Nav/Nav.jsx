@@ -28,7 +28,7 @@ const Nav = () => {
           className="collapse navbar-collapse justify-content-center"
           id="navbarNavDropdown"
         >
-          <ul className="navbar-nav">
+          <ul className={`navbar-nav`}>
             <li className="nav-item mx-3">
               <a
                 className={`${style.navItems} nav-link`}

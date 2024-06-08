@@ -16,7 +16,12 @@
         "title": "About me"
     },
     "experience": {
-        "title": "Experience"
+        "title": "Experience",
+        "microbes": {
+            "about": "Startup that provides microbiological solutions for agriculture and the environment.",
+            "description": "I built thier website, from the choice of design to the final development. With a modern and responsive design we invite your mission, vision and values in a clear and attractive way.",
+            "stack": " React.JS, JavaScript, i18next, HTML, CSS, Bootstrap and Email.JS."
+        }
     },
     "projects": {
         "title": "Projects"

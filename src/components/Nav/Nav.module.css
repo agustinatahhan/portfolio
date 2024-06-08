@@ -1,10 +1,11 @@
-.navItems{
-    letter-spacing: 1px;
-    font-size: 16px;
+.navItems {
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: var(--text);
 }
 
-    .langItem{
-        display: flex;
-        flex-direction: row;
-        gap: .4rem;
-    }
+.langItem {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+}

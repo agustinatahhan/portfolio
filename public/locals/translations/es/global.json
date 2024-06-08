@@ -16,7 +16,12 @@
         "title": "Sobre mí"
     },
     "experience": {
-        "title": "Experiencia"
+        "title": "Experiencia",
+        "microbes": {
+            "about": "Startup que brinda soluciones microbiológicas para la agricultura y el medio ambiente.",
+            "description": "Construí su sitio web, desde la elección del diseño hasta el desarrollo final. Con un diseño moderno y responsivo invita su misión, visión y valores de manera clara y atractiva.",
+            "stack": " React.JS, JavaScript, i18next, HTML, CSS, Bootstrap y Email.JS."
+        }
     },
     "projects": {
         "title": "Proyectos"
