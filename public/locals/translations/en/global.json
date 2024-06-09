@@ -30,6 +30,15 @@
         "title": "Skills"
     },
     "contact": {
-        "title": "Get in touch"
+        "title": "Get in touch",
+        "email": "Email",
+        "name": "Full Name",
+        "message": "Message",
+        "send": "Send",
+        "workTitle": "Let's work together",
+        "media": "Social Media",
+        "cv": "Download cv",
+        "english": "English version",
+        "spanish": "Spanish version"
     }
 }

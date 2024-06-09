@@ -13,8 +13,8 @@ const icons = {
   github: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="30"
-      height="30"
+      width="25"
+      height="25"
       viewBox="0 0 432 416"
     >
       <path
@@ -193,8 +193,8 @@ const icons = {
   link: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="30"
-      height="30"
+      width="25"
+      height="25"
       viewBox="0 0 16 16"
     >
       <path

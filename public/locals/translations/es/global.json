@@ -30,6 +30,15 @@
         "title": "Habilidades"
     },
     "contact": {
-        "title": "Contáctame"
+        "title": "Contáctame",
+        "email": "Email",
+        "name": "Nombre Completo",
+        "message": "Mensaje",
+        "send": "Enviar",
+        "workTitle": "Trabajemos juntos",
+        "media": "Redes Sociales",
+        "cv": "Descargar cv",
+        "english": "Versión en Inglés",
+        "spanish": "Versión en Español"
     }
 }
