@@ -58,7 +58,8 @@
   height: 90px;
   border-radius: 1rem;
   /* background: linear-gradient(to right,  #e3cae0, #eac8ea); */
-  background: linear-gradient(to right,  #e3cae0, #eac8ea);
+  background: linear-gradient(to right,  #d3ccff, #c5bcfc
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,17 +68,17 @@
 }
 
 .containerOne:hover {
-  background: linear-gradient( #e3cae0, #eac8ea, #f5f5f5);
+  background: linear-gradient( #d3ccff, #c5bcfc, #f5f5f5);
   transition-duration: 0.3s;
 }
 
 .containerTwo:hover {
-  background: linear-gradient( #e3cae0, #eac8ea, #f5f5f5);
+  background: linear-gradient( #d3ccff, #c5bcfc, #f5f5f5);
   transition-duration: 0.3s;
 }
 
 .containerThree:hover {
-  background: linear-gradient( #e3cae0, #eac8ea, #f5f5f5);
+  background: linear-gradient( #d3ccff, #c5bcfc, #f5f5f5);
   transition-duration: 0.3s;
 }
 
@@ -200,6 +201,7 @@
 
   .titleExperience {
     text-align: center;
+    margin: 3rem 0 1rem 0;
   }
   
   .form {

@@ -152,7 +152,7 @@ const Contact = () => {
                 type="text"
                 placeholder={t("contact.name")}
                 name="user_name"
-                class="input"
+                className="input"
                 required
               />
             </div>
@@ -161,7 +161,7 @@ const Contact = () => {
                 type="text"
                 placeholder={t("contact.email")}
                 name="user_email"
-                class="input"
+                className="input"
                 required
               />
             </div>
