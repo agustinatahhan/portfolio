@@ -2,7 +2,7 @@ import style from "./Contact.module.css";
 import { useTranslation } from "react-i18next";
 import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import Confetti from "react-dom-confetti";
+// import Confetti from "react-dom-confetti";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Contact = () => {
@@ -43,11 +43,11 @@ const Contact = () => {
     form.current.message.value = "";
   };
 
-  const confettiConfig = {
-    particleCount: 100,
-    spread: 70,
-    origin: { y: 0.6 },
-  };
+  // const confettiConfig = {
+  //   particleCount: 100,
+  //   spread: 70,
+  //   origin: { y: 0.6 },
+  // };
 
   const handleDownloadEnglish = () => {
     const pdfUrl = "/../../../public/Curriculum-AgustinaTahhan.pdf";
@@ -176,7 +176,7 @@ const Contact = () => {
               {t("contact.send")}
             </button>
           </form>
-          <Confetti active={showConfetti} config={confettiConfig} />
+          {/* <Confetti active={showConfetti} config={confettiConfig} /> */}
         </div>
       </div>
     </div>
