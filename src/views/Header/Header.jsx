@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Element } from 'react-scroll';
 // import image from "../../assets/icon.png";
 const Header = () => {
   const { t } = useTranslation("global");
@@ -12,7 +13,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className={style.container}>
+    <Element name="about" className={style.container} id="about">
       <div className={style.headerColumns}>
         {/* <div className={style.column}> */}
           {/* <div className={style.columnText}> */}
@@ -26,7 +27,7 @@ const Header = () => {
           <img className={style.columnImg} src={image} alt="image" />
         </div> */}
       </div>
-    </div>
+    </Element>
   );
 };
 

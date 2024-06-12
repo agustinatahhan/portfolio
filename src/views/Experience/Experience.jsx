@@ -8,6 +8,7 @@ import m4life from "../../assets/m4life.png";
 import in2tires from "../../assets/tires.png";
 import sportiverse from "../../assets/sportiverse.png";
 import pokemon from "../../assets/pokemon.png";
+import { Element } from 'react-scroll';
 
 const icons = {
   github: (
@@ -21,6 +22,29 @@ const icons = {
         fill="currentColor"
         d="M213.5 0q88.5 0 151 62.5T427 213q0 70-41 125.5T281 416q-14 2-14-11v-58q0-27-15-40q44-5 70.5-27t26.5-77q0-34-22-58q11-26-2-57q-18-5-58 22q-26-7-54-7t-53 7q-18-12-32.5-17.5T107 88h-6q-12 31-2 57q-22 24-22 58q0 55 27 77t70 27q-11 10-13 29q-42 18-62-18q-12-20-33-22q-2 0-4.5.5t-5 3.5t8.5 9q14 7 23 31q1 2 2 4.5t6.5 9.5t13 10.5T130 371t30-2v36q0 13-14 11q-64-22-105-77.5T0 213q0-88 62.5-150.5T213.5 0z"
       />
+    </svg>
+  ),
+  git: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="60"
+      height="60"
+      viewBox="0 0 256 256"
+    >
+      <g fill="none">
+        <rect width="256" height="256" fill="#F03C2E" rx="60" />
+        <g clip-path="url(#skillIconsGit0)">
+          <path
+            fill="#fff"
+            d="m224.225 119.094l-87.319-87.319a12.869 12.869 0 0 0-14.035-2.793a12.869 12.869 0 0 0-4.177 2.793L100.569 49.9l23 23c5.35-1.875 11.475-.594 15.737 3.669a15.313 15.313 0 0 1 3.631 15.831l22.169 22.169c5.363-1.85 11.55-.657 15.831 3.637a15.322 15.322 0 0 1 3.321 16.706a15.333 15.333 0 0 1-20.029 8.293c-1.86-.771-3.55-1.9-4.973-3.324c-4.5-4.5-5.612-11.125-3.337-16.669l-20.675-20.675v54.407a15.605 15.605 0 0 1 4.062 2.9a15.326 15.326 0 0 1-21.675 21.675a15.318 15.318 0 0 1-3.326-16.704a15.297 15.297 0 0 1 3.326-4.971c1.481-1.475 3.125-2.594 5.019-3.344v-54.913a15.216 15.216 0 0 1-5.019-3.343a15.315 15.315 0 0 1-3.3-16.757L91.644 58.813l-59.875 59.812a12.88 12.88 0 0 0-2.795 14.04a12.88 12.88 0 0 0 2.795 4.179l87.325 87.312a12.884 12.884 0 0 0 4.177 2.793a12.888 12.888 0 0 0 9.858 0a12.884 12.884 0 0 0 4.177-2.793l86.919-86.781a12.882 12.882 0 0 0 3.776-9.109a12.876 12.876 0 0 0-3.776-9.11"
+          />
+        </g>
+        <defs>
+          <clipPath id="skillIconsGit0">
+            <path fill="#fff" d="M28 28h200v200H28z" />
+          </clipPath>
+        </defs>
+      </g>
     </svg>
   ),
   react: (
@@ -238,6 +262,22 @@ const icons = {
       />
     </svg>
   ),
+  express: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="60"
+      height="60"
+      viewBox="0 0 256 256"
+    >
+      <g fill="none">
+        <rect width="256" height="256" fill="#F4F2ED" rx="60" />
+        <path
+          fill="#0F0F0F"
+          d="M228 182.937a12.732 12.732 0 0 1-15.791-6.005c-9.063-13.567-19.071-26.522-28.69-39.755l-4.171-5.56c-11.454 15.346-22.908 30.08-33.361 45.371a12.23 12.23 0 0 1-15.012 5.894l42.98-57.659l-39.978-52.1a13.289 13.289 0 0 1 15.847 5.56c9.285 13.568 19.572 26.523 29.802 40.257c10.287-13.623 20.462-26.634 29.97-40.09a11.952 11.952 0 0 1 14.901-5.56l-15.513 20.573c-6.95 9.174-13.789 18.404-21.017 27.356a5.558 5.558 0 0 0 0 8.285c13.289 17.626 26.466 35.307 40.033 53.433ZM28 124.5c1.168-5.56 1.89-11.621 3.503-17.292c9.619-34.195 48.818-48.43 75.785-27.245c15.791 12.4 19.739 29.97 18.961 49.764H37.286c-1.446 35.363 24.075 56.714 56.713 45.816a33.864 33.864 0 0 0 21.518-23.965c1.724-5.56 4.504-6.505 9.786-4.893a45.145 45.145 0 0 1-21.573 32.972a52.263 52.263 0 0 1-60.884-7.784a54.767 54.767 0 0 1-13.678-32.138c0-1.89-.723-3.781-1.112-5.56A860.69 860.69 0 0 1 28 124.5Zm9.397-2.391h80.456c-.501-25.632-16.681-43.814-38.254-43.98c-24.02-.334-41.201 17.458-42.258 43.869l.056.111Z"
+        />
+      </g>
+    </svg>
+  ),
   php: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -434,7 +474,7 @@ const Experience = () => {
     AOS.init();
   }, []);
   return (
-    <div className={style.container}>
+    <Element name="experience" className={style.container}>
       <h2 className={style.titleExperience}>{t("experience.title")}</h2>
       <div className={style.containerCards}>
         <div className={style.card}>
@@ -456,6 +496,7 @@ const Experience = () => {
               {icons.js}
               {icons.react}
               {icons.bootstrap}
+              {icons.git}
             </div>
           </div>
         </div>
@@ -478,6 +519,7 @@ const Experience = () => {
               {icons.js}
               {icons.bootstrap}
               {icons.php}
+              {icons.git}
             </div>
           </div>
         </div>
@@ -504,8 +546,10 @@ const Experience = () => {
               {icons.react}
               {icons.redux}
               {icons.node}
+              {icons.express}
               {icons.postgresql}
               {icons.sequelize}
+              {icons.git}
             </div>
           </div>
         </div>
@@ -516,7 +560,9 @@ const Experience = () => {
           <div className={style.cardText}>
             <div className={style.titleLinks}>
               <h3>Pokémon</h3>
-              <NavLink to={pokemonGitLink} className={style.titleIconsLinks}>{icons.github}</NavLink>
+              <NavLink to={pokemonGitLink} className={style.titleIconsLinks}>
+                {icons.github}
+              </NavLink>
             </div>
             <p>{t("experience.microbes.about")}</p>
             <p>{t("experience.microbes.description")}</p>
@@ -527,13 +573,15 @@ const Experience = () => {
               {icons.react}
               {icons.redux}
               {icons.node}
+              {icons.express}
               {icons.postgresql}
               {icons.sequelize}
+              {icons.git}
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 };
 

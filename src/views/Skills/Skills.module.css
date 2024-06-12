@@ -3,21 +3,43 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: fit-content;
   text-align: center;
-  /* background-image: url(../../assets/paper.jpg); */
 }
+
 .titleExperience {
   font-family: var(--title);
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin: 3rem 0 2rem 0;
   font-size: 50px;
   width: 90%;
   text-align: start;
+}
+
+.iconsContainer{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  width: 100%;
+}
+
+.im:hover {
+  transform: rotate(360deg);
+  transition: transform 1s ease-in-out;
 }
 
 @media (max-width: 768px){
   .titleExperience {
     text-align: center;
   }
+
+  .iconsContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.7rem;
+    width: 100%;
+  }
+  
 }

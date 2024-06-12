@@ -149,6 +149,7 @@
   border-radius: 1rem;
   box-shadow: 0 0.4rem #ccc;
   cursor: pointer;
+  color: black;
 }
 
 .inputWrapper input:focus,
@@ -163,6 +164,7 @@
   justify-content: center;
   gap: 2rem;
   width: 70%;
+  color: black;
 }
 
 .btn {
@@ -176,9 +178,10 @@
   box-shadow: 0 0.4rem #cccccc;
   cursor: pointer;
   transition: box-shadow 0.2s, transform 0.2s;
+  color: black;
 }
 
-.btn:active {
+.btn:active{
   box-shadow: 0 0.2rem #dfd9d9;
   transform: translateY(0.2rem);
 }

@@ -1,84 +1,79 @@
-// import style from "./Nav.module.css";
 import { useTranslation } from "react-i18next";
 import style from "./Nav.module.css";
-// import { useState } from "react";
+import { useState } from "react";
 import "aos/dist/aos.css";
+import { Link as ScrollLink } from "react-scroll";
+
 const Nav = () => {
   const [t, i18n] = useTranslation("global");
 
   const handleLanguageChange = (languageCode) => {
     i18n.changeLanguage(languageCode);
   };
-
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div className="container-fluid">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div
-          className="collapse navbar-collapse justify-content-center"
-          id="navbarNavDropdown"
-        >
-          <ul className={`navbar-nav`}>
-            <li className="nav-item mx-3">
-              <a
-                className={`${style.navItems} nav-link`}
-                aria-current="page"
-                href="#"
+    <nav className={style.nav}>
+      <div className={style.navContainerElements}>
+        <div className={`${style.navIcons} ${style.column}`}>
+          <div>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-code"
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                strokeWidth="1.2"
+                stroke="#000000"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
-                {t("nav.home")}
-              </a>
-            </li>
-            <li className="nav-item mx-3">
-              <a className={`${style.navItems} nav-link`} href="#">
-                {t("nav.about")}
-              </a>
-            </li>
-            <li className="nav-item mx-3">
-              <a className={`${style.navItems} nav-link`} href="#">
-                {t("nav.skills")}
-              </a>
-            </li>
-            <li className="nav-item mx-3">
-              <a className={`${style.navItems} nav-link`} href="#">
-                {t("nav.projects")}
-              </a>
-            </li>
-            <li className="nav-item mx-3">
-              <a className={`${style.navItems} nav-link`} href="#">
-                {t("nav.contact")}
-              </a>
-            </li>
-            <div className={`${style.langItem} mx-3`}>
-              
-              <li className="nav-item">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M7 8l-4 4l4 4" />
+                <path d="M17 8l4 4l-4 4" />
+                <path d="M14 4l-4 16" />
+              </svg>
+            </a>
+          </div>
+          <div>
+            <ul>
+              <li>
                 <a
                   style={{ cursor: "pointer" }}
-                  className={`${style.navItems} nav-link`}
                   onClick={() => handleLanguageChange("en")}
                 >
                   EN
                 </a>
               </li>
-              <li className="nav-item">
+              <li>
                 <a
                   style={{ cursor: "pointer" }}
-                  className={`${style.navItems} nav-link`}
                   onClick={() => handleLanguageChange("es")}
                 >
                   ES
                 </a>
               </li>
-            </div>
+            </ul>
+          </div>
+        </div>
+        <div className={`${style.navLinks} ${style.column}`}>
+          <ul>
+            <li>
+              <ScrollLink to="about" smooth={true} duration={100}>{t("nav.about")}</ScrollLink>
+            </li>
+            {/* <li>
+              <ScrollLink to="home" smooth={true} duration={100}>{t("nav.about")}</ScrollLink>
+            </li> */}
+
+            <li>
+              <ScrollLink to="skills" smooth={true} duration={100}>{t("nav.skills")}</ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="experience" smooth={true} duration={100}>{t("nav.experience")}</ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="contact" smooth={true} duration={100}>{t("nav.contact")}</ScrollLink>
+            </li>
           </ul>
         </div>
       </div>

@@ -5,6 +5,8 @@ import emailjs from "@emailjs/browser";
 // import Confetti from "react-dom-confetti";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Element } from 'react-scroll';
+
 const Contact = () => {
   const { t } = useTranslation("global");
 
@@ -79,7 +81,7 @@ const Contact = () => {
   };
 
   return (
-    <div className={style.container}>
+    <Element name="contact" className={style.container}>
       <h2 className={style.titleExperience}>{t("contact.title")}</h2>
       <div className={style.containerColumns}>
         <div className={`${style.column} ${style.column1}`}>
@@ -179,7 +181,7 @@ const Contact = () => {
           {/* <Confetti active={showConfetti} config={confettiConfig} /> */}
         </div>
       </div>
-    </div>
+    </Element>
   );
 };
 

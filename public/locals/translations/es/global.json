@@ -3,12 +3,12 @@
     "home": "Inicio",
     "about": "Sobre mí",
     "skills": "Habilidades",
-    "projects": "Proyectos",
+    "experience": "Experiencia",
     "contact": "Contáctame"
     },
     "header": {
-        "title1": "Hola!",
-        "title2": "Soy Agustina Tahhan",
+        "title1": "Hola! Soy",
+        "title2": "Agustina Tahhan",
         "title3": "Desarrolladora Full Stack",
         "title4": "me gusta transformar grandes ideas en código."
     },
